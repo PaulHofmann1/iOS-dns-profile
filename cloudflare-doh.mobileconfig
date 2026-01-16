@@ -6,40 +6,32 @@
 
   <key>PayloadType</key>
   <string>Configuration</string>
-
   <key>PayloadVersion</key>
   <integer>1</integer>
-
   <key>PayloadIdentifier</key>
   <string>com.cloudflare.doh.profile</string>
-
   <key>PayloadUUID</key>
-  <string>9E7C9E2A-4C2B-4E5B-9A77-1A6F8E8D1C01</string>
-
+  <string>F3B9C2A1-8E0D-4E9A-A7F1-123456789ABC</string>
   <key>PayloadDisplayName</key>
   <string>Cloudflare DNS over HTTPS</string>
-
   <key>PayloadDescription</key>
-  <string>Enforces Cloudflare DNS over HTTPS system-wide.</string>
-
+  <string>System-wide Cloudflare DNS over HTTPS</string>
   <key>PayloadOrganization</key>
   <string>Cloudflare</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
 
   <key>PayloadContent</key>
   <array>
     <dict>
       <key>PayloadType</key>
       <string>com.apple.dnsSettings.managed</string>
-
       <key>PayloadVersion</key>
       <integer>1</integer>
-
       <key>PayloadIdentifier</key>
       <string>com.cloudflare.doh.settings</string>
-
       <key>PayloadUUID</key>
-      <string>F2B6C4A9-8F44-4A1E-9B35-6F9A7B8C3E11</string>
-
+      <string>A1B2C3D4-1111-2222-3333-444455556666</string>
       <key>PayloadDisplayName</key>
       <string>Cloudflare DoH</string>
 
@@ -47,9 +39,11 @@
       <dict>
         <key>DNSProtocol</key>
         <string>HTTPS</string>
-
         <key>ServerURL</key>
         <string>https://cloudflare-dns.com/dns-query</string>
       </dict>
     </dict>
   </array>
+
+</dict>
+</plist>
